@@ -1,0 +1,29 @@
+.app__todoContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.app__todoInput {
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.app__todoList {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.app h2 {
+  text-align: center;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+.section-title {
+  text-align: center;
+  margin-top: 50px;
+}

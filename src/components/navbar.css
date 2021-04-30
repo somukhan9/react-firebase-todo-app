@@ -1,0 +1,31 @@
+.navbar {
+  width: 100vw;
+  padding: 15px 0;
+  background: #fff;
+  border-bottom: 1px solid #f1f5f8;
+}
+.navbar__container {
+  width: 70vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo {
+  font-size: 22px;
+  text-shadow: 1.2px 0.8px rgb(214, 214, 214);
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar__logo {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+}

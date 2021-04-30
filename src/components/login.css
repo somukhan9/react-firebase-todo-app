@@ -1,0 +1,40 @@
+.login {
+  width: 100%;
+}
+
+.login button:hover {
+  cursor: pointer;
+}
+.login__info {
+  display: flex;
+  align-items: center;
+}
+.login__infoContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.login__imgContainer img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.login__infoContainer p {
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.login__logoutBtnContainer {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .login__infoContainer p {
+    font-size: 16px;
+  }
+  .login__logoutBtnContainer {
+    margin-left: 6px;
+  }
+}
